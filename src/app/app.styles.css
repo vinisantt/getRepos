@@ -1,0 +1,15 @@
+.card {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	transition: all linear 0.5s;
+}
+
+.card span {
+	margin-left: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.hideCard {
+	height: 0;
+}
