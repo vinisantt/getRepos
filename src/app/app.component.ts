@@ -32,7 +32,7 @@ export class AppComponent {
 				}
 				this.repos.push(new Repository(repo[index]));
 				index++;
-			}, 600);
+			}, 200);
 		});
 		this.user = "";
 	}

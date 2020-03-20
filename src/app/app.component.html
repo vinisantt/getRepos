@@ -12,7 +12,8 @@
 	<button (click)="req()">pega repos</button>
 	<br />
 
-	<div [ngStyle]="{ 'animation-duration': 2 + 's' }" class="card animated pulse" *ngFor="let repo of repos">
+	<!-- [ngStyle]="{ 'animation-duration': 2 + 's' }" -->
+	<div class="card animated pulse fast" *ngFor="let repo of repos">
 		<span><b>Nome completo:</b> {{ repo.name }}</span>
 		<span><b>Nome completo:</b> {{ repo.fullName }}</span>
 		<span><b>Privado:</b> {{ repo.isPrivate }} </span>
